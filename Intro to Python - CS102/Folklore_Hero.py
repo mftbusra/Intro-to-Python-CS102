@@ -12,3 +12,5 @@ def display_current_date():
     current_date = datetime.datetime.now()
     formatted_date = current_date.strftime("%A, %B %d %Y")
     print(f"Today's date is: {formatted_date}\n")
+
+    
