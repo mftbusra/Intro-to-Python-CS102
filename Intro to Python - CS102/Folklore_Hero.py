@@ -199,7 +199,7 @@ def main():
             continue
 
         # Final Encounter: Skondhokata
-        if final_battle(inventory):
+        if final_battle(inventory, morale):
             print("\nCongratulations! You have saved Rajshahi and became a hero of folklore!")
         else:
             print("\nYou failed in your mission. You became a cautionary tale in folklore.")
