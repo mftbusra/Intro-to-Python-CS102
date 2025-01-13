@@ -88,7 +88,7 @@ def padma_river_encounter(inventory, morale):
         if morale < 0:
             print("\nYou have no morale left. The journey ends here.")
             return False, morale
-        return True, morale
+        return False, morale
     elif choice == 2:
         print("\nThe boatman takes the fish and takes you across.")
         inventory.append("Boatman")
