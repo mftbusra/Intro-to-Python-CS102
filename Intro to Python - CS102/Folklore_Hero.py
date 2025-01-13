@@ -17,11 +17,11 @@ def display_current_date():
 def display_storyline():
     display_current_date()  # Displaying the current date at the start of the storyline
     print("Welcome to 'The Folklore Hero of Rajshahi'!")
-    print("Rajshahi is known as the Silk City of Bangladesh, is a serene city on the bank of the Padma River. Famous for its mangoes and rich cultural heritage, it is also a hub for education and history.")
+    print("Rajshahi is known as the Silk City of Bangladesh. It is a serene city on the bank of the Padma River. It is famous for its mangoes and rich cultural heritage, it is also a hub for education and history.")
     print("You are a brave civillian chosen to save your hometown Rajshahi from a mythical threat.")
     print("Your journey will test your wit, bravery, and decision-making.")
     print("Can you survive and save Rajshahi? Let the journey begin!\n")
-    print("Before we start, for safety you will always have fish with you in this journey. Bangalis love to eat fish and rice, so you can consider fish is infinite charm or power or coin in this game. And with your every decision you get or lose a morale point for your action. ")
+    print("Before we start, you should know that Bangalis love to eat fish and rice, so you can consider fish as your infinite charm or power or coin in this game at any level. And with your every decision, you either get or lose a morale point for your action. ")
     time.sleep(2)
 
 # Function to get and validate input from the user
