@@ -40,7 +40,7 @@ def get_choice(options):
             print("Not an integer. Please enter a valid number.\n")
 
 # Function for the Shakchunni encounter
-def shakchunni_encounter(inventory):
+def shakchunni_encounter(inventory, morale):
     print("\nYou encounter a Shakchunni, a female ghost with long hair blocking your path.")
     print("\n A little insider information about Shakchunni : Shankchunni is a ghost of Hindu widow who wears the shankha(a white bangle, a symbol of hindu married woman). She died either due to abuse or has some unfulfilled desires. Hindu widows in their lifetime, were deprived of eating fish due to dietary restrictions. They often haunts the husband's family and possesses other young married woman. If I remember correctly Shankchunni loves fish specially Hilsha and would often haunt the kitchen when cooking fish.")
     print("She offers to let you pass if you answer her riddle correctly.")
@@ -73,7 +73,7 @@ def shakchunni_encounter(inventory):
         
 
 # Function for the Padma River crossing
-def padma_river_encounter(inventory):
+def padma_river_encounter(inventory, morale):
     print("\nYou reach the Padma River. As you already know Rajshahi is located on the bank of Padma river, so in order to move forward, you need to cross the river.")
     print(" You encounter the ghost named 'Mechhobhoot'. Mechhobhoot is another lover of fish who accosts late night fishermen or lone people carrying fish.")
     print("A boatman demands fish or challenges you to a riddle.")
@@ -124,7 +124,7 @@ def padma_river_encounter(inventory):
         return True, morale
 
 # Function for the final battle
-def final_battle(inventory):
+def final_battle(inventory, morale):
     print("\nYou face the Skondhokata, headless ghosts whose origin stories have changed over time. They usually attack or enslave humans to help them find their lost heads. They generally dwell in low moist lands, outside a village, in bogs and fens, and go about in the dark, rolling on the ground, with their huge arms stretched out. However, some describe them as the ghosts of people beheaded on the train tracks. They haunt railway stations, but can easily be outwitted because of their lack of sight.")
     print("To defeat him, you must solve a riddle and use your collected morale points.")
     time.sleep(2)
