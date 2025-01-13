@@ -42,7 +42,7 @@ def get_choice(options):
 # Function for the Shakchunni encounter
 def shakchunni_encounter(inventory, morale):
     print("\nYou encounter a Shakchunni, a female ghost with long hair blocking your path.")
-    print("\n A little insider information about Shakchunni : Shankchunni is a ghost of Hindu widow who wears the shankha(a white bangle, a symbol of hindu married woman). She died either due to abuse or has some unfulfilled desires. Hindu widows in their lifetime, were deprived of eating fish due to dietary restrictions. They often haunts the husband's family and possesses other young married woman. If I remember correctly Shankchunni loves fish specially Hilsha and would often haunt the kitchen when cooking fish.")
+    print("\n A little insider information about Shakchunni : Shankchunni is a ghost of Hindu widow who wears the shankha(a white bangle, a symbol of hindu married woman). It is opinionated that she died due to abuse. Hindu widows in their lifetime, were deprived of eating fish due to religious dietary restrictions. They often haunts the husband's family and possesses other young married woman. If I remember correctly Shankchunni loves fish specially Hilsha and would often haunt the kitchen when cooking fish.")
     print("She offers to let you pass if you answer her riddle correctly.")
     time.sleep(2)
 
