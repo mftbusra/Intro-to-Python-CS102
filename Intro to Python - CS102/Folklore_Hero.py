@@ -119,8 +119,8 @@ def padma_river_encounter(inventory):
         else:
             print("\nWrong! The boatman refuses to take you. You lose morale.")
             if morale < 0:
-            print("\nYou have no morale left. The journey ends here.")
-            return False, morale
+                print("\nYou have no morale left. The journey ends here.")
+                return False, morale
         return True, morale
 
 # Function for the final battle
